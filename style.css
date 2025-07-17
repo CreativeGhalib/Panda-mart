@@ -1,3 +1,4 @@
+/* common css */
 *{
     box-sizing: border-box ;
 
@@ -5,7 +6,21 @@
 .container {max-width: 1280px;
     margin:  auto; 
 }
+.banner-btn {
+    
+    width: 168px;
+    padding: 14px 20px;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 68px;
+    font-weight: 500px;
 
+}
+
+
+/* search styling */
 .search-parent {
     position: relative;
     color: rgb(186, 186, 186);;
@@ -48,6 +63,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 46px;
+    border-radius: 10px;
 }
 
 .banner img {
@@ -73,18 +90,9 @@ nav {
     color: rgba(255, 19, 111, 1);
     font-size: 52px;
     font-weight:500px;
+    display: block;
+    margin-bottom: 1px;
+
 
 }
 
-.banner-btn {
-    display: flex;
-    width: 168px;
-    padding: 14px 20px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
-    color: white;
-    border-radius: 6px;
-    border: none;
-}
