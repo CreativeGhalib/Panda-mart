@@ -1,8 +1,25 @@
-* {
-    
+*{
+
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between  ;
+}
+.search-parent {
+    position: relative;
+}
+
+.search-parent input {
+    background-color: rgb(241, 241, 241);
+    border-radius: 66px;
+    padding: 12px;
+    width: 508px;
+    
+}
+.search-parent i {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+
 }
