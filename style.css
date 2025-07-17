@@ -1,5 +1,9 @@
 *{
+    box-sizing: border-box ;
 
+}
+.container {max-width: 1280px;
+    margin:  auto; 
 }
 
 nav {
@@ -8,6 +12,7 @@ nav {
 }
 .search-parent {
     position: relative;
+    color: rgb(186, 186, 186);;
 }
 
 .search-parent input {
@@ -15,6 +20,7 @@ nav {
     border-radius: 66px;
     padding: 12px;
     width: 508px;
+    border: none;
     
 }
 .search-parent i {
@@ -22,4 +28,16 @@ nav {
     top: 12px;
     right: 12px;
 
+}
+.nav-items {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+.nav-items li a{
+        text-decoration: none;
+        color: rgb(112, 112, 112);
+        font-weight: 600px;
+        font-size: 16px;
+        
 }
