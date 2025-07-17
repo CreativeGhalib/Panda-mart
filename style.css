@@ -29,7 +29,7 @@
 .search-parent input {
     background-color: rgb(241, 241, 241);
     border-radius: 66px;
-    padding: 12px;
+    padding: 14px;
     width: 508px;
     border: none;
     
@@ -44,11 +44,12 @@
 nav {
     display: flex;
     justify-content: space-between  ;
+    padding:50px
 }
 .nav-items {
     display: flex;
     list-style: none;
-    gap: 24px;
+    gap: 13px;
 }
 .nav-items li a{
         text-decoration: none;
@@ -65,6 +66,7 @@ nav {
     align-items: center;
     padding: 46px;
     border-radius: 10px;
+    margin-top: 16px;
 }
 
 .banner img {
@@ -89,7 +91,7 @@ nav {
 .banner-price {
     color: rgba(255, 19, 111, 1);
     font-size: 52px;
-    font-weight:500px;
+    font-weight:bold;
     display: block;
     margin-bottom: 1px;
 
